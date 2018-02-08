@@ -1,3 +1,4 @@
+// async, await example
 1 Ajax
 
 ajax1(x(), function(data1){
