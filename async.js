@@ -38,10 +38,10 @@ var request3 = function(param){
 
 request1()
     .then(function(data1){
-        request2(data1);
+        return request2(data1);
     }).catch()
     .then(function(data2){
-        request3(data2);
+        return request3(data2);
     }).catch()
     .then(function(data3){
         ......
